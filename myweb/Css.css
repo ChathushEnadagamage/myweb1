@@ -1,0 +1,139 @@
+
+span{
+    color: cyan;
+}
+.chathu{
+        position: relative;
+        left: 70%;
+        top: 50%;
+        width: 20vw;
+        border-radius: 30%;
+        box-shadow: 0 0 25px cyan;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        
+
+}
+.chathu:hover{
+    box-shadow: 0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan;
+
+
+}
+
+.name{
+    top:20% ;
+    position: absolute;
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 3px cyan;
+    left: 10%;
+    cursor: pointer;
+    
+}
+.name::before{
+    content: "Hi,It'Chathush";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: cyan;
+    border-right: 8px solid cyan;
+    transition: 1s ease-in-out;
+}
+.name:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px cyan);
+}
+
+.im{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: white;
+}
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.home{
+    margin:200px ;
+    top: 20%;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    color:transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.icon{
+    position: absolute;
+    top:80% ;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 4.5rem;
+    background: transparent;
+    border: 2px solid rgb(1, 230, 230);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: cyan;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease-in-out;
+    
+}
+.icon :hover{
+    color: var darkblue;
+transform: scale(1.3)translateY(-5px);
+box-shadow: 0 0 25px darkblue;
+background-color: darkblue;
+}
+.button1{
+    top: 87%;
+    position: absolute;
+}
+
+
+.exp{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(44, 10, 214);
+    
+    background-color: rgb(109, 108, 108,0.2);
+
+}
+.exppre{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+}
+.exphead{
+    text-decoration: none;
+}
+.btn-light {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211, 212, 213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+.w-50{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
